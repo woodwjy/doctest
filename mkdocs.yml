@@ -1,0 +1,63 @@
+# MkDocs 站点配置
+# 文档目录为 docs/，请将资源图片统一放在 docs/img/ 下，并在 Markdown 中用相对路径 img/xxx.png 引用。
+
+site_name: 云枢物联
+site_description: 一站式物联网基础设施与解决方案服务商：边缘网关、无线传感、IoT 云平台
+site_url: https://<你的用户名>.github.io/<你的仓库名>/   # 部署后请替换为真实地址（GitHub Pages 项目站点形如 https://用户名.github.io/仓库名/）
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - 首页: index.md
+  - 产品中心:
+      - 产品总览: products/index.md
+      - 边缘计算网关 EGW-X1: products/edge-gateway-egw-x1.md
+      - 无线智能传感系列: products/sensor-series.md
+      - IoT 云平台: products/iot-cloud-platform.md
+  - 行业解决方案:
+      - 方案总览: solutions/index.md
+      - 智慧工厂设备联网: solutions/smart-manufacturing.md
+  - 客户案例:
+      - 案例总览: cases/index.md
+      - 某汽车零部件集团设备联网: cases/auto-parts-group.md
+  - 关于我们: company/about.md
+  - 联系我们: company/contact.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  generator: false

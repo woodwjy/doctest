@@ -1,0 +1,30 @@
+# 推送到 GitHub 后自动构建 MkDocs 并发布到 GitHub Pages
+# 若你的仓库默认分支是 master，请把下方 branches 中的 main 改为 master。
+
+name: 构建并发布到 GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 安装 MkDocs 与 Material 主题
+        run: pip install mkdocs-material
+      - name: 构建并发布到 gh-pages 分支
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdocs gh-deploy --force
