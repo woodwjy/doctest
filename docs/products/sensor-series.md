@@ -7,7 +7,7 @@ description: 温湿度、振动、电流、水浸等多类无线传感器，LoRa
 
 面向设备状态监测与环境监测的无线传感器产品线，免布线安装，适合存量车间改造与广域布点场景。
 
-![传感系列产品图](img/product-sensors.png)
+![传感系列产品图](img/Group_of_small_wireless_IoT_se_2026-09-03T10-14-54.png)
 
 ## 产品类型
 
@@ -48,4 +48,4 @@ description: 温湿度、振动、电流、水浸等多类无线传感器，LoRa
 - 传感接入与告警配置参见：[IoT 云平台](iot-cloud-platform.md)。
 - 完整型号列表与选型手册请联系 <sales@example.com>。
 
-<!-- 请在 docs/img/ 下放置 product-sensors.png，或替换为真实图片路径。 -->
+<!-- 当前产品图为 AI 生成占位图（文件名含时间戳）。如需替换为公司实拍，在 docs/img/ 下放置 product-sensors.png 并把上方引用改回即可。 -->

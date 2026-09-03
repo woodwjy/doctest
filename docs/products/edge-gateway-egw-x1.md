@@ -7,7 +7,7 @@ description: 工业级边缘计算网关，多协议接入、本地规则引擎�
 
 面向工业现场的边缘计算网关，向下对接 PLC、数控、仪表等异构设备，向上通过 MQTT / HTTPS 与 IoT 云平台或第三方系统通信。
 
-![EGW-X1 产品图](img/product-egw-x1.png)
+![EGW-X1 产品图](img/Industrial_IoT_edge_gateway_pr_2026-09-03T10-14-44.png)
 
 ## 关键特性
 
@@ -43,6 +43,7 @@ description: 工业级边缘计算网关，多协议接入、本地规则引擎�
 
 <!--
   注意：
-  - 请在 docs/img/ 下放置 product-egw-x1.png，或替换为真实图片路径。
+  - 当前产品图为 AI 生成占位图（文件名含时间戳）。如需替换为公司实拍，
+    在 docs/img/ 下放置 product-egw-x1.png 并把上方引用改回 product-egw-x1.png 即可。
   - 规格参数为示例数据，请按实际产品手册更新。
 -->

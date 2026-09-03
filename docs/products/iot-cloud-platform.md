@@ -46,4 +46,6 @@ description: 一站式设备接入与数据应用平台：设备管理、实时�
 - 多租户隔离，细粒度角色权限。
 - 通过等保三级 / ISO 27001 认证（示例，按实更新）。
 
+![平台界面示意](img/Modern_IoT_cloud_platform_moni_2026-09-03T10-14-47.png)
+
 <!-- 平台截图可放 docs/img/platform-overview.png 并在下方插入：![](img/platform-overview.png) -->
